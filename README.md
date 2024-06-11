@@ -6,8 +6,8 @@
 
 This repo contains the official implementation for the paper "BlockFusion: Expandable 3D Scene Generation using Latent Tri-plane Extrapolation".
 
-<img src="img/inference.gif" alt="drawing" width="350"/>
-<img src="img/teaser.gif" alt="drawing" width="500"/>
+<img src="img/inference.gif" alt="drawing" width="300"/>
+<img src="img/teaser.gif" alt="drawing" width="400"/>
 
 ## Installation
 [Pytorch3d](https://github.com/facebookresearch/pytorch3d) is required for postprocess. Come to offical page for installation instructions.
