@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: diffusers
+Version: 0.22.0.dev0
+Summary: State-of-the-art diffusion in PyTorch and JAX.
+Home-page: https://github.com/huggingface/diffusers
+Author: The HuggingFace team
+Author-email: patrick@huggingface.co
+License: Apache
+Keywords: deep learning diffusion jax pytorch stable diffusion audioldm
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+Requires-Dist: importlib_metadata
+Requires-Dist: filelock
+Requires-Dist: huggingface-hub>=0.13.2
+Requires-Dist: numpy
+Requires-Dist: regex!=2019.12.17
+Requires-Dist: requests
+Requires-Dist: safetensors>=0.3.1
+Requires-Dist: Pillow
+Provides-Extra: quality
+Requires-Dist: urllib3<=2.0.0; extra == "quality"
+Requires-Dist: black~=23.1; extra == "quality"
+Requires-Dist: isort>=5.5.4; extra == "quality"
+Requires-Dist: ruff==0.0.280; extra == "quality"
+Requires-Dist: hf-doc-builder>=0.3.0; extra == "quality"
+Provides-Extra: docs
+Requires-Dist: hf-doc-builder>=0.3.0; extra == "docs"
+Provides-Extra: training
+Requires-Dist: accelerate>=0.11.0; extra == "training"
+Requires-Dist: datasets; extra == "training"
+Requires-Dist: protobuf<4,>=3.20.3; extra == "training"
+Requires-Dist: tensorboard; extra == "training"
+Requires-Dist: Jinja2; extra == "training"
+Provides-Extra: test
+Requires-Dist: compel==0.1.8; extra == "test"
+Requires-Dist: datasets; extra == "test"
+Requires-Dist: Jinja2; extra == "test"
+Requires-Dist: invisible-watermark>=0.2.0; extra == "test"
+Requires-Dist: k-diffusion>=0.0.12; extra == "test"
+Requires-Dist: librosa; extra == "test"
+Requires-Dist: omegaconf; extra == "test"
+Requires-Dist: parameterized; extra == "test"
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-timeout; extra == "test"
+Requires-Dist: pytest-xdist; extra == "test"
+Requires-Dist: requests-mock==1.10.0; extra == "test"
+Requires-Dist: safetensors>=0.3.1; extra == "test"
+Requires-Dist: sentencepiece!=0.1.92,>=0.1.91; extra == "test"
+Requires-Dist: scipy; extra == "test"
+Requires-Dist: torchvision; extra == "test"
+Requires-Dist: transformers>=4.25.1; extra == "test"
+Provides-Extra: torch
+Requires-Dist: torch>=1.4; extra == "torch"
+Requires-Dist: accelerate>=0.11.0; extra == "torch"
+Provides-Extra: flax
+Requires-Dist: jax!=0.3.2,>=0.2.8; extra == "flax"
+Requires-Dist: jaxlib>=0.1.65; extra == "flax"
+Requires-Dist: flax>=0.4.1; extra == "flax"
+Provides-Extra: dev
+Requires-Dist: urllib3<=2.0.0; extra == "dev"
+Requires-Dist: black~=23.1; extra == "dev"
+Requires-Dist: isort>=5.5.4; extra == "dev"
+Requires-Dist: ruff==0.0.280; extra == "dev"
+Requires-Dist: hf-doc-builder>=0.3.0; extra == "dev"
+Requires-Dist: compel==0.1.8; extra == "dev"
+Requires-Dist: datasets; extra == "dev"
+Requires-Dist: Jinja2; extra == "dev"
+Requires-Dist: invisible-watermark>=0.2.0; extra == "dev"
+Requires-Dist: k-diffusion>=0.0.12; extra == "dev"
+Requires-Dist: librosa; extra == "dev"
+Requires-Dist: omegaconf; extra == "dev"
+Requires-Dist: parameterized; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-timeout; extra == "dev"
+Requires-Dist: pytest-xdist; extra == "dev"
+Requires-Dist: requests-mock==1.10.0; extra == "dev"
+Requires-Dist: safetensors>=0.3.1; extra == "dev"
+Requires-Dist: sentencepiece!=0.1.92,>=0.1.91; extra == "dev"
+Requires-Dist: scipy; extra == "dev"
+Requires-Dist: torchvision; extra == "dev"
+Requires-Dist: transformers>=4.25.1; extra == "dev"
+Requires-Dist: accelerate>=0.11.0; extra == "dev"
+Requires-Dist: datasets; extra == "dev"
+Requires-Dist: protobuf<4,>=3.20.3; extra == "dev"
+Requires-Dist: tensorboard; extra == "dev"
+Requires-Dist: Jinja2; extra == "dev"
+Requires-Dist: hf-doc-builder>=0.3.0; extra == "dev"
+Requires-Dist: torch>=1.4; extra == "dev"
+Requires-Dist: accelerate>=0.11.0; extra == "dev"
+Requires-Dist: jax!=0.3.2,>=0.2.8; extra == "dev"
+Requires-Dist: jaxlib>=0.1.65; extra == "dev"
+Requires-Dist: flax>=0.4.1; extra == "dev"
