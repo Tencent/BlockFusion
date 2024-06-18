@@ -17,7 +17,6 @@ We modified [diffusers](https://github.com/huggingface/diffusers) to adapt tripl
 # clone this repo 
 python setup.py install
 ```
-We provide the pretrained checkpoint for VAE, conditioned and unconditioned diffusion model, MLP [here](). Download and unzip them under ```./checkpoints```
 
 
 ### Pretrained model
