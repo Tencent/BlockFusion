@@ -9,7 +9,7 @@ This repo contains the official implementation for the paper "BlockFusion: Expan
 <img src="img/inference.gif" alt="drawing" width="350"/>
 <img src="img/teaser.gif" alt="drawing" width="500"/>
 
-## Installation
+### Installation
 [Pytorch3d](https://github.com/facebookresearch/pytorch3d) is required for postprocess. Come to offical page for installation instructions.
 
 We modified [diffusers](https://github.com/huggingface/diffusers) to adapt triplane structure. Users should build based on the ```./src```
@@ -19,7 +19,15 @@ python setup.py install
 ```
 We provide the pretrained checkpoint for VAE, conditioned and unconditioned diffusion model, MLP [here](). Download and unzip them under ```./checkpoints```
 
-## Inference
+
+### Pretrained model
+Pretrained weights of MLP, VAE, and Diffuser(Condition/Unconditioned). [Download the model here [10GB]](https://drive.google.com/file/d/19cuQihXzxq9fcM_drMWMhmwHBdT3B8fA/view?usp=sharing)
+and extract to ```./checkpoints```.
+
+
+### Inference
+
+
 To do uncondtional inference, run 
 ```
 python unconditioned_prediction.py --batch 4 --save output/uncond
